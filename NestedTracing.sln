@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32120.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NestedTracing", "NestedTracing\NestedTracing.vcxproj", "{CF8E084D-B43C-4966-9C8E-D0EDFE722475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF8E084D-B43C-4966-9C8E-D0EDFE722475}.Debug|x64.ActiveCfg = Debug|x64
+		{CF8E084D-B43C-4966-9C8E-D0EDFE722475}.Debug|x64.Build.0 = Debug|x64
+		{CF8E084D-B43C-4966-9C8E-D0EDFE722475}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF8E084D-B43C-4966-9C8E-D0EDFE722475}.Debug|x86.Build.0 = Debug|Win32
+		{CF8E084D-B43C-4966-9C8E-D0EDFE722475}.Release|x64.ActiveCfg = Release|x64
+		{CF8E084D-B43C-4966-9C8E-D0EDFE722475}.Release|x64.Build.0 = Release|x64
+		{CF8E084D-B43C-4966-9C8E-D0EDFE722475}.Release|x86.ActiveCfg = Release|Win32
+		{CF8E084D-B43C-4966-9C8E-D0EDFE722475}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {418E971C-A5AB-4467-B40B-5E90A7EC2951}
+	EndGlobalSection
+EndGlobal
