@@ -7,13 +7,21 @@ using namespace NestedTracingExample;
 
 void PerformTaskA(TracerBase& tracer)
 {
-    tracer.WriteMessage("TaskA");
+    tracer.WriteMessage("Task A");
+}
+
+void PerformTaskC(TracerBase& tracer)
+{
+    tracer.WriteMessage("Task C");
 }
 
 void PerformTaskB(TracerBase& tracer)
 {
-    tracer.WriteMessage("TaskB");
+    tracer.WriteMessage("Task B");
+    PerformTaskC(*tracer.CreateChild());
 }
+
+
 
 int main()
 {

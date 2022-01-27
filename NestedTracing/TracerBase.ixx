@@ -30,8 +30,8 @@ export namespace NestedTracingExample
 
         ~TracerBase()
         {
-            std::string indent(parentId, ' ');
-            std::cout << std::format("{}Destroyed id {}\n", indent, id);
+            //std::string indent(parentId, ' ');
+            //std::cout << std::format("{}Destroyed id {}\n", indent, id);
         }
     };
 
