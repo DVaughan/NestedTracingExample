@@ -14,6 +14,8 @@ export namespace NestedTracingExample
 
         std::unique_ptr<TracerBase> CreateChild() override
         {
+            // Copy or reference context. object.
+
             return std::make_unique<Tracer>(id);
         }
     };
